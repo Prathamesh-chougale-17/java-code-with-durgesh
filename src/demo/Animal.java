@@ -15,4 +15,9 @@ public class Animal {
     public void eating(){
         System.out.println("Animal is eating");
     }
+
+    public static void main(String[] args) {
+        Animal a = new Animal();
+        System.out.println(a.temp);
+    }
 }
